@@ -70,6 +70,30 @@ main{
     margin: 0 auto;
 }
 
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+main > section{
+    margin-top: 130px;
+}
+.our-features{
+    margin-left:  70px;
+    max-width: 530px;
+}
+.feature-title{
+    font-size: 2.8rem;
+}
+#quick-list{
+    font-weight: 500;
+}
+#feature{
+    color: #FF900E;
+}
 @media screen and (max-width: 576px){
     .navbar, .nav-link{
         flex-direction: column;
