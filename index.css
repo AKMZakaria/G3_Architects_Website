@@ -11,8 +11,63 @@ body{
     /* padding: 50px; */
 }
 .navbar{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
-    margin: 20px 230px;
+    /* margin: 20px 230px; */
+}
+.display-flex{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.text-grey{
+    color: #424242;
+}
+.text-light-grey{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.brand{
+    font-weight:700;
+    font-size: 3rem;
+}
+.banner-content{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+}
+.banner img{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    .navbar, .nav-link{
+        flex-direction: column;
+    }
 }
