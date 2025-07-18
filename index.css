@@ -175,7 +175,7 @@ main > section{
     }
     .featured-arcitect img{
     width: 100%;
-}
+    }
     .team-img-container,
     .facts-container,
     .sponsor-companies{
@@ -200,6 +200,7 @@ main > section{
     margin-top: 20px;
     margin-left: 20px;
 }
+
     .nav-links{
         
     }
@@ -212,6 +213,9 @@ main > section{
     }
     .our-features{
         margin-left: 50px auto;
+    }
+    .featured-arcitect img{
+    width: 100%;
     }
     .sponsor-companies,
     .facts-container{
