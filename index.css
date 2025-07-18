@@ -155,7 +155,8 @@ main > section{
         margin-left: 20px;
     }
     .nav-item{
-    margin-right: 5px;
+    /* margin-right: 5px; */
+    justify-content: space-around;
 }
     .nav-links{
         
